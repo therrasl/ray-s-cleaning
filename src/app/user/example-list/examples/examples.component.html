@@ -1,0 +1,56 @@
+<section class="second-section">
+  <div class="second-text">
+    <h1 class="second-main-text">
+      Примеры
+      <span class="second-main-span">наших работ</span>
+    </h1>
+    <p class="second-section-subtitle">
+      Мы документируем нашу работу, чтобы увидеть разницу до и после. Каждое
+      изображение иллюстрирует нашу приверженность качеству и внимание к
+      деталям, будь то уборка жилых или коммерческих помещений, генеральная
+      уборка или специальные работы
+    </p>
+  </div>
+
+  <div tuiCarouselButtons class="wrapper">
+    <button
+      icon="tuiIconChevronLeftLarge"
+      title="Previous"
+      type="button"
+      (click)="carousel.prev()"
+    >
+      <
+    </button>
+    <tui-carousel #carousel class="carousel" [itemsCount]="3">
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo1.jpg" />
+      </tui-island>
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo2.jpg" />
+      </tui-island>
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo3.jpg" />
+      </tui-island>
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo5.jpg" />
+      </tui-island>
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo6.jpg" />
+      </tui-island>
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo8.jpg" />
+      </tui-island>
+      <tui-island *tuiItem class="photo-item">
+        <img src="assets/photo4.jpg" />
+      </tui-island>
+    </tui-carousel>
+    <button
+      icon="tuiIconChevronRightLarge"
+      title="Next"
+      type="button"
+      (click)="carousel.next()"
+    >
+      >
+    </button>
+  </div>
+</section>
