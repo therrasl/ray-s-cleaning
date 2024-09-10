@@ -75,18 +75,18 @@ button {
     margin: 0 17px;
   }
 }
-@media (max-width: 1400px) {
+@media (width: 1400px) {
   .container {
     width: 1000px;
   }
 }
 
-@media (max-width: 1080px) {
+@media (width: 1080px) {
   .container {
     width: 900px;
   }
 }
-@media (max-width: 930px) {
+@media (width: 930px) {
   .container {
     width: 600px;
   }
