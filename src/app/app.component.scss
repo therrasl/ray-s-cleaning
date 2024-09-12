@@ -19,4 +19,8 @@
     width: 700px;
   }
 }
-
+@media (max-width: 630px) {
+  .container {
+    width: 50px;
+  }
+}
