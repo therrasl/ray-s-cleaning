@@ -350,58 +350,5 @@
     height: 350px;
   }
 }
-@media (max-width: 630px) {
-  .block {
-    width: 350px;
-  }
-  .years {
-    left: 200px;
-    width: 140px;
-  }
-  .item {
-    width: 110px;
-    height: 110px;
-    display: none;
-  }
-  .cleaning-block {
-    width: 350px;
-    height: 350px;
-  }
-  .main-text{
-    font-size: 35px;
-  }
 
-  .value{
-   width: 400px;
-
-  }
-  .value-list{
-    width : 200px;
-
-  }
-
-  .mobile{
-    display: none;
-  }
-  .main-section-3 {
-    font-size: 30px;
-    font-weight: 700;
-
-    justify-content:start;
-    align-items: center;
-  }
-.block{
-  margin: 0;
-}
-.cleaning-block{
-  margin: 0;
-}
-.section-4{
-align-items: start;
-}
-.text{
-  font-size: 15px;
-  max-width: 350px;
-}
-}
 

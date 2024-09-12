@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
 import { TuiCarouselModule, TuiIslandModule } from '@taiga-ui/kit';
 
@@ -9,6 +9,7 @@ import { TuiCarouselModule, TuiIslandModule } from '@taiga-ui/kit';
   templateUrl: './examples.component.html',
   styleUrl: './examples.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  encapsulation : ViewEncapsulation.ShadowDom
 })
 
 export class ExamplesComponent {
