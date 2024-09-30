@@ -1,17 +1,19 @@
-import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+} from '@angular/core';
 
 import { TuiCarouselModule, TuiIslandModule } from '@taiga-ui/kit';
 
 @Component({
   selector: 'app-examples',
   standalone: true,
-  imports: [TuiCarouselModule, TuiIslandModule ],
+  imports: [TuiCarouselModule, TuiIslandModule],
   templateUrl: './examples.component.html',
   styleUrl: './examples.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation : ViewEncapsulation.ShadowDom
 })
-
 export class ExamplesComponent {
-
+  public count: number = 3;
 }

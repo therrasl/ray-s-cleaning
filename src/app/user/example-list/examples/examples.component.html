@@ -1,3 +1,6 @@
+<div class="container">
+
+
 <section class="second-section">
   <div class="second-text">
     <h1 class="second-main-text">
@@ -19,9 +22,9 @@
       type="button"
       (click)="carousel.prev()"
     >
-      <
+    <
     </button>
-    <tui-carousel #carousel class="carousel" [itemsCount]="3">
+    <tui-carousel #carousel class="carousel" [itemsCount]='3'>
       <tui-island *tuiItem class="photo-item">
         <img src="assets/photo1.jpg" />
       </tui-island>
@@ -54,3 +57,4 @@
     </button>
   </div>
 </section>
+</div>
