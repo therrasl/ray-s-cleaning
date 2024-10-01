@@ -440,8 +440,8 @@
   }
 
   .block {
-    width: 300px;
-    height: 200px;
+    width: 340px;
+    height: 150px;
   }
   .item {
     width: 110px;
@@ -462,20 +462,37 @@
   }
 
   .cleaning-block {
-    width: 380px;
+    width: 380px;;
   }
   .cleaning-title {
-    font-size: 20px;
+    font-size: 18px;
   }
   .cleaning-subtitle {
-    font-size: 20px;
+    font-size: 15px;
   }
   .cleaning-text {
-    font-size: 12px;
+    font-size: 10px;
   }
   .cleaning-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  .step{
+    height: 100px;
+    font-size: 9px;
+  }
+  .main-section-3{
+  font-size: 22px;
+  }
+  .section-4-main-text {
+    font-size: 22px ;
+
+  }
+  .second-main-text{
+    font-size: 22px;
+  }
+  .text{
+    font-size:11px;
   }
 }
