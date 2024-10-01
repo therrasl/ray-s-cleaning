@@ -53,3 +53,11 @@ h1 {
     width: 700px;
   }
 }
+@media (max-width: 640px) {
+  .block {
+    width: 450px;
+  }
+  .block-2 {
+    width: 450px;
+  }
+}

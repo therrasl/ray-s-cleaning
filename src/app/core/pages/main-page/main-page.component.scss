@@ -220,7 +220,7 @@
 .cleaning-title {
   display: flex;
   justify-content: center;
-  margin: 20px 0px;
+  margin: 20px auto;
   font-size: 25px;
   align-self: center;
   margin-bottom: 15px;
@@ -352,7 +352,7 @@
 }
 @media (max-width: 640px) {
   .container{
-    width:600px;}
+   width:600px;}
   .main-text{
     font-size: 45px;
     font-weight: 1000;
@@ -372,7 +372,8 @@
      padding: 15px 50px;
    }
   .block {
-    width: 600px;
+    width: 400px;
+    height: 200px;
   }
   .years {
     left: 200px;
@@ -391,6 +392,47 @@
     width: 600px;
     height: 350px;
   }
+  .steps-item{
+    width:400px;
+    align-items: center;
+  }
+  .steps-number {
+    font-size: 60px;
+  }
+  .steps-number-text{
+    font-size:13px;
+
+  }
+  .step{
+    height:150px;
+  }
+  .second-main-text{
+   display:flex;
+   justify-content: center;
+  }
+  .second-main-span{
+    margin-left: 10px;
+  }
+ .cleaning-block{
+  width: 480px;
+
+ }
+ .cleaning-title{
+  font-size: 20px;
+
+ }
+ .cleaning-subtitle{
+  font-size:20px;
+ }
+ .cleaning-text{
+  font-size: 12px;
+ }
+ .cleaning-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 }
 
 

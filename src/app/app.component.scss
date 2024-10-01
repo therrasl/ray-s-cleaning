@@ -21,6 +21,9 @@
 }
 @media (max-width: 630px) {
   .container {
-    width: 50px;
+    width: 600px;
+  }
+  *{
+    overflow-y: hidden;
   }
 }
