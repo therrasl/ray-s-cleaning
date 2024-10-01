@@ -9,8 +9,4 @@ import { QuestionsComponent } from '../../../user/questions/questions.component'
   styleUrl: './main-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MainPageComponent  {
-
-
-
-}
+export class MainPageComponent {}
