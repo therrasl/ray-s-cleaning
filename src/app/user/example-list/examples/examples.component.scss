@@ -1,7 +1,6 @@
 
 
 .wrapper {
-  width: 900px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -81,7 +80,7 @@ button {
 }
 @media (max-width:640px) {
   .container {
-    width: 640px;
+    width: 600px;
   }
   .second-main-span{
     margin-left: 10px;
@@ -98,7 +97,7 @@ button {
   }
   .carousel{
     inline-size: 450px;
-
+   margin-right: 0;
   }
   .photo-item{
     border-radius: 15px;
