@@ -56,8 +56,13 @@ h1 {
 }
 @media (max-width: 640px) {
   .header {
-    width: 480px;
-
+    width: 500px;
+  margin: 0 auto;
   }
-
+}
+@media (max-width: 470px) {
+  .header {
+    width: 400px;
+  margin: 0 auto;
+  }
 }
