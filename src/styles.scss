@@ -94,6 +94,9 @@ legend {
   max-width: 1280px;
   margin: 0 auto;
 }
+body {
+  overflow-x: hidden;
+  }
 @media (max-width: 1400px) {
   .container {
     max-width: 1000px;
@@ -104,3 +107,9 @@ legend {
     width: 900px;
   }
 }
+@media (max-width: 640px) {
+  .container {
+    width: 640px;
+  }
+}
+

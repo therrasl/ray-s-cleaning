@@ -98,6 +98,7 @@ button {
   }
   .carousel{
     inline-size: 450px;
+
   }
   .photo-item{
     border-radius: 15px;
@@ -113,6 +114,9 @@ button {
     display: block;
     border-radius: 15px;
     height: 190px;
+  }
+  button{
+    margin: 0 ;
   }
 }
 
