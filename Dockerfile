@@ -3,7 +3,7 @@ FROM node:alpine as build
 COPY package-lock.json package.json
 RUN  npm install --force
 COPY . .
-RUN  npm build 
+RUN  npm run build 
 
 FROM nginx:stable-alpine 
 
