@@ -2,10 +2,11 @@ FROM node:alpine as build
 
 CMD ["nginx" , "-g", "daemon off;" , "/bin/bash"]
 COPY package-lock.json package.json
-RUN  npm install -g @angular/cli
+RUN  npm install -g @angular/cli 
 RUN  npm install --force
 COPY . .
 RUN  npm run build 
+RUN  npm run init
 
 FROM nginx:stable-alpine 
 
