@@ -1,9 +1,9 @@
 FROM node:alpine as build 
 
 COPY package.json package.json
-RUN npm install
+RUN npm install --force
 COPY . .
-RUN npm run build
+RUN npm start
 
 FROM nginx:stable-alpine 
 
