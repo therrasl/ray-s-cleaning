@@ -3,13 +3,17 @@ networks: dev
 services:
   nginx:
     image: nginx:stable-alpine
-    ports: "80:80"
+    ports: 
+    - "80:80"
     volumes: 
-     './nginx.conf:/etc/nginx/nginx.conf'
-    depends_on: frontend
-    networks: dev
+    - './nginx.conf:/etc/nginx/nginx.conf'
+    depends_on: 
+    - frontend
+    networks: 
+    - dev
 
 frontend:
   build:
     context: ./ray-s-cleaning
-    networks: dev
+    networks: 
+    - dev
