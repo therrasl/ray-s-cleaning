@@ -13,8 +13,8 @@ services:
     networks: 
       - dev
 
-frontend:
-  build:
-    context: ./ray-s-cleaning
+  frontend:
+    build:
+      context: ./ray-s-cleaning
     networks: 
       - dev
