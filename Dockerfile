@@ -3,6 +3,7 @@ FROM node:alpine as build
 CMD ["nginx" , "-g", "daemon off;" , "/bin/bash"]
 COPY package-lock.json package.json
 RUN  npm install -g @angular/cli 
+RUN  nvm install node
 RUN  npm install --force
 COPY . .
 RUN  ng serve
